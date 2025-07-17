@@ -155,7 +155,7 @@ export function HeaderActions({ user, projectId }: HeaderActionsProps) {
         </Popover>
       )}
 
-      <Button variant="green" className="flex items-center gap-2 h-8" onClick={handleNewDesign}>
+      <Button variant="hotpink" className="flex items-center gap-2 h-8" onClick={handleNewDesign}>
         <Plus className="h-4 w-4" />
         New Design
       </Button>
